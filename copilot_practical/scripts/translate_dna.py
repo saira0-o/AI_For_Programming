@@ -1,5 +1,3 @@
-protein_seq = input('enter sequence: ')
-
 def translate(seq):
     # Define the standard codon table
     codon_table = {
@@ -37,5 +35,3 @@ def translate(seq):
     
     # Join the list of amino acids into a single string and return
     return ''.join(protein_seq)
-
-print(protein_seq)
